@@ -13,20 +13,21 @@ for (var i = 0; i < 10; i++) {
     console.count(); //1,2,3,4....9,10
 }
 ```
+
 7. 
 console.count(); // 1
 console.count(); // 1
-9. 
+8. 
 console.count("myLabel"); // myLabel: 
 console.count("myLabel"); // myLabel: 2
 
-10.console.dir(document); // object reprn of document
+9. console.dir(document); // object reprn of document
 console.dirxml(document); // xml reprn of document
 
-11. console.error("My custom error"); // in red color, same as default console errors
+10. console.error("My custom error"); // in red color, same as default console errors
 console.error(data.count);
 
-12. console.time("timer");
+11. console.time("timer");
 ```
 var portfolios = data.results; //to come from API
 for (var i = 0; i < portfolios.length; i++) {
