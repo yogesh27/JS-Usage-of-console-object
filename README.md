@@ -1,3 +1,5 @@
+## Use below commands in console
+
 1. console.log(data);
 2. console.assert(data.count == 15, "assert message");
 3. console.assert(data.count == 14, "assert message coming"); //works only if con is false,//Assertion failed: assert message coming
