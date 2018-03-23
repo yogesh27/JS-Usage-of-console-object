@@ -1,17 +1,9 @@
-console.log(data);
-
-console.assert(data.count == 15, "assert message");
-
-console.assert(data.count == 14, "assert message coming"); //works only if con is false,//Assertion failed: assert message coming
-
-console.log(data.count == 15, "log message"); // works for both con: true/false, // true "log message"
-
-console.log(data.count == 14, "log message coming"); // false "log message coming", //console.clear(); //will clear all above console errors
-
-console.count():
-
-Logs the number of times that this particular call to count() has been called. 
-
+1. console.log(data);
+2. console.assert(data.count == 15, "assert message");
+3. console.assert(data.count == 14, "assert message coming"); //works only if con is false,//Assertion failed: assert message coming
+4. console.log(data.count == 15, "log message"); // works for both con: true/false, // true "log message"
+5. console.log(data.count == 14, "log message coming"); // false "log message coming", //console.clear(); //will clear all above console errors
+6. console.count(): Logs the number of times that this particular call to count() has been called. 
 This function takes an optional argument label.
 
 ```
@@ -19,7 +11,6 @@ for (var i = 0; i < 10; i++) {
     console.count(); //1,2,3,4....9,10
 }
 ```
-
 console.count(); // 1
 
 console.count(); // 1
